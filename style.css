@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#keyboard {
+  max-width: 100%;
+  height: auto;
+}
+
+.key {
+  cursor: pointer;
+  /* fill: #ECECEC; */ /* Default color for keys */
+  transition: fill 0.2s;
+}
+
+.key:hover {
+  fill: #dcdcdc; /* Hover color for keys */
+}
+
+/* .playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+} */
+
+rect.playing  {
+  /* transform: scale(1.1); */
+  stroke: #ffc600;
+  fill: #ffc80051;
+  /* box-shadow: 0 0 1rem #ffc600; */
+}
+
+.highlight-blue {
+  background-color: blue;
+  color: white;
+}
+.highlight-red {
+  background-color: red;
+  color: white;
+}
